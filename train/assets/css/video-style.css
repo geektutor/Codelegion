@@ -256,8 +256,16 @@ a.buy-it-now:active {
     text-shadow: 1px 1px 1px rgba(0,0,0,.1);
 }
 
+/*@media screen and (min-width: 992px) {
+    .gallery-images img {
+    width: 100px;
+    height: 90px;
+}
+*/
 .gallery-images img {
     padding: 5px;
+    width: 100px;
+    height: 100px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
